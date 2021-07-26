@@ -1,0 +1,19 @@
+1) Ejecutar comando en el proyecto
+npm install -g firebase-tools 
+
+2)firebase login
+
+3) firebase init
+
+3) npm i express cors
+
+runCmd => firebase serve
+ 
+“https://fb-crud-react-a85a3.firebaseio.com” sustituir xxxx por el nombre de su base de datos
+
+##Hacer Deploy
+
+firebase deploy
+
+ nodemon
+ nodemon --exec firebase serve --only functions
